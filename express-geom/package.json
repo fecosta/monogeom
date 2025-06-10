@@ -1,0 +1,25 @@
+{
+  "name": "express-geom",
+  "version": "0.0.1",
+  "description": "Express GEOM API",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node seed.js",
+    "dev": "nodemon index.js --ignore db.json",
+    "test": "jest"
+  },
+  "author": "Pablovem <contact@pablovem.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.3",
+    "lowdb": "1.0.0",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
